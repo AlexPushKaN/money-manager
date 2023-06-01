@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="IncomeEntity" representedClassName=".IncomeEntity" syncable="YES" codeGenerationType="category">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="value" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="incomes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IncomesEntity" inverseName="income" inverseEntity="IncomesEntity"/>
+    </entity>
+    <entity name="IncomesEntity" representedClassName=".IncomesEntity" syncable="YES" codeGenerationType="category">
+        <relationship name="income" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="IncomeEntity" inverseName="incomes" inverseEntity="IncomeEntity"/>
+    </entity>
 </model>

@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4ED4A02A2792AE00E56FE9 /* Incomes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ED49F2A2792AE00E56FE9 /* Incomes.swift */; };
+		4D4ED4A22A27AD6B00E56FE9 /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ED4A12A27AD6B00E56FE9 /* DateToString.swift */; };
+		4D4ED4A42A27B12C00E56FE9 /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ED4A32A27B12C00E56FE9 /* IncomeTableViewCell.swift */; };
 		4D71774F2A24B95E0082DFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71774E2A24B95E0082DFA5 /* AppDelegate.swift */; };
 		4D7177512A24B95E0082DFA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177502A24B95E0082DFA5 /* SceneDelegate.swift */; };
-		4D7177532A24B95E0082DFA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177522A24B95E0082DFA5 /* ViewController.swift */; };
 		4D7177562A24B95E0082DFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7177542A24B95E0082DFA5 /* Main.storyboard */; };
 		4D7177592A24B95E0082DFA5 /* MoneyManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177572A24B95E0082DFA5 /* MoneyManager.xcdatamodeld */; };
 		4D71775B2A24B95F0082DFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D71775A2A24B95F0082DFA5 /* Assets.xcassets */; };
 		4D71775E2A24B95F0082DFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D71775C2A24B95F0082DFA5 /* LaunchScreen.storyboard */; };
+		4D7177672A24D7040082DFA5 /* MoneyManagerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177662A24D7040082DFA5 /* MoneyManagerTabBarController.swift */; };
+		4D7177692A250D2B0082DFA5 /* IncomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177682A250D2B0082DFA5 /* IncomesViewController.swift */; };
+		4D71776B2A250D430082DFA5 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71776A2A250D430082DFA5 /* ExpensesViewController.swift */; };
+		4D71776D2A250D720082DFA5 /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71776C2A250D720082DFA5 /* GraphsViewController.swift */; };
+		4D7177702A250FA00082DFA5 /* ExtensionForUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71776F2A250FA00082DFA5 /* ExtensionForUIColor.swift */; };
+		4D7177732A251C540082DFA5 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7177722A251C540082DFA5 /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4ED49F2A2792AE00E56FE9 /* Incomes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incomes.swift; sourceTree = "<group>"; };
+		4D4ED4A12A27AD6B00E56FE9 /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
+		4D4ED4A32A27B12C00E56FE9 /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
 		4D71774B2A24B95E0082DFA5 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D71774E2A24B95E0082DFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D7177502A24B95E0082DFA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D7177522A24B95E0082DFA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D7177552A24B95E0082DFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D7177582A24B95E0082DFA5 /* MoneyManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyManager.xcdatamodel; sourceTree = "<group>"; };
 		4D71775A2A24B95F0082DFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D71775D2A24B95F0082DFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D71775F2A24B95F0082DFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7177662A24D7040082DFA5 /* MoneyManagerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerTabBarController.swift; sourceTree = "<group>"; };
+		4D7177682A250D2B0082DFA5 /* IncomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomesViewController.swift; sourceTree = "<group>"; };
+		4D71776A2A250D430082DFA5 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		4D71776C2A250D720082DFA5 /* GraphsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
+		4D71776F2A250FA00082DFA5 /* ExtensionForUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForUIColor.swift; sourceTree = "<group>"; };
+		4D7177722A251C540082DFA5 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4ED49E2A27928E00E56FE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D4ED4A12A27AD6B00E56FE9 /* DateToString.swift */,
+				4D4ED49F2A2792AE00E56FE9 /* Incomes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4D7177422A24B95E0082DFA5 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +85,45 @@
 			children = (
 				4D71774E2A24B95E0082DFA5 /* AppDelegate.swift */,
 				4D7177502A24B95E0082DFA5 /* SceneDelegate.swift */,
-				4D7177522A24B95E0082DFA5 /* ViewController.swift */,
+				4D4ED49E2A27928E00E56FE9 /* Models */,
+				4D71776E2A250F480082DFA5 /* Extension */,
+				4D7177652A24D6970082DFA5 /* Controllers */,
+				4D7177712A251C1A0082DFA5 /* Views */,
 				4D7177542A24B95E0082DFA5 /* Main.storyboard */,
-				4D71775A2A24B95F0082DFA5 /* Assets.xcassets */,
 				4D71775C2A24B95F0082DFA5 /* LaunchScreen.storyboard */,
+				4D71775A2A24B95F0082DFA5 /* Assets.xcassets */,
 				4D71775F2A24B95F0082DFA5 /* Info.plist */,
 				4D7177572A24B95E0082DFA5 /* MoneyManager.xcdatamodeld */,
 			);
 			path = MoneyManager;
+			sourceTree = "<group>";
+		};
+		4D7177652A24D6970082DFA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7177662A24D7040082DFA5 /* MoneyManagerTabBarController.swift */,
+				4D7177682A250D2B0082DFA5 /* IncomesViewController.swift */,
+				4D71776A2A250D430082DFA5 /* ExpensesViewController.swift */,
+				4D71776C2A250D720082DFA5 /* GraphsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D71776E2A250F480082DFA5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D71776F2A250FA00082DFA5 /* ExtensionForUIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4D7177712A251C1A0082DFA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D4ED4A32A27B12C00E56FE9 /* IncomeTableViewCell.swift */,
+				4D7177722A251C540082DFA5 /* ToggleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7177692A250D2B0082DFA5 /* IncomesViewController.swift in Sources */,
 				4D7177592A24B95E0082DFA5 /* MoneyManager.xcdatamodeld in Sources */,
-				4D7177532A24B95E0082DFA5 /* ViewController.swift in Sources */,
+				4D4ED4A42A27B12C00E56FE9 /* IncomeTableViewCell.swift in Sources */,
 				4D71774F2A24B95E0082DFA5 /* AppDelegate.swift in Sources */,
+				4D7177672A24D7040082DFA5 /* MoneyManagerTabBarController.swift in Sources */,
+				4D71776D2A250D720082DFA5 /* GraphsViewController.swift in Sources */,
+				4D7177702A250FA00082DFA5 /* ExtensionForUIColor.swift in Sources */,
+				4D4ED4A02A2792AE00E56FE9 /* Incomes.swift in Sources */,
+				4D4ED4A22A27AD6B00E56FE9 /* DateToString.swift in Sources */,
 				4D7177512A24B95E0082DFA5 /* SceneDelegate.swift in Sources */,
+				4D7177732A251C540082DFA5 /* ToggleView.swift in Sources */,
+				4D71776B2A250D430082DFA5 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +358,14 @@
 				DEVELOPMENT_TEAM = SR6T9Z9RAZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoneyManager/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +373,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JediClan.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,11 +392,14 @@
 				DEVELOPMENT_TEAM = SR6T9Z9RAZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoneyManager/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +407,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JediClan.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
