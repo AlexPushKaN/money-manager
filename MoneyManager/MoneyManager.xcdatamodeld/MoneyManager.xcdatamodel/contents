@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryExpensesEntity" representedClassName=".CategoryExpensesEntity" syncable="YES" codeGenerationType="category">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="expense" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ExpenseEntity" inverseName="categoryExpenses" inverseEntity="ExpenseEntity"/>
+        <relationship name="expenses" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExpensesEntity" inverseName="categoriesExpenses" inverseEntity="ExpensesEntity"/>
+    </entity>
+    <entity name="ExpenseEntity" representedClassName=".ExpenseEntity" syncable="YES" codeGenerationType="category">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="value" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="categoryExpenses" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryExpensesEntity" inverseName="expense" inverseEntity="CategoryExpensesEntity"/>
+    </entity>
+    <entity name="ExpensesEntity" representedClassName=".ExpensesEntity" syncable="YES" codeGenerationType="category">
+        <relationship name="categoriesExpenses" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CategoryExpensesEntity" inverseName="expenses" inverseEntity="CategoryExpensesEntity"/>
+    </entity>
+    <entity name="IncomeEntity" representedClassName=".IncomeEntity" syncable="YES" codeGenerationType="category">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="YES"/>
+        <attribute name="value" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="incomes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IncomesEntity" inverseName="income" inverseEntity="IncomesEntity"/>
+    </entity>
+    <entity name="IncomesEntity" representedClassName=".IncomesEntity" syncable="YES" codeGenerationType="category">
+        <relationship name="income" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="IncomeEntity" inverseName="incomes" inverseEntity="IncomeEntity"/>
+    </entity>
+</model>
